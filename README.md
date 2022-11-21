@@ -33,8 +33,8 @@
 	3. Create a .env file and write:
   
     ```
-		RPC_URL = https://goerli.infura.io/v3/b0312dc3e98348b4b24505f1b757eb58
-		2. PRIVATE_KEY=c955dccac0d6fa21ca8a9187502b779334f3aa2de4e8afa724e92d3e044c0d6d
+		RPC_URL = YourNodeProviderURL
+		2. PRIVATE_KEY=c YourPrivateKey
     ```
     
 	4. Write on 'deploy.js': we use the following code because etherscan is a third party and may take some time to etherscan to now that a new SC has been deployed.
@@ -70,7 +70,7 @@
   6. And add in the .env:
     
      ```
-     ETHERSCAN_KEY=989Y1SJ9I13V7DF3SURKYT98F462RRJV2U
+     ETHERSCAN_KEY= YOURAPI
      ```
 
 9. Check if the '.env' file is included in the '.gitignore' file to protect the keys
