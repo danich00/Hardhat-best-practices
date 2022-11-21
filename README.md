@@ -13,7 +13,7 @@
 6. Modify 'deploy.js' file:
   
   ```
-	const HelloWorld = await hre.ethers.getContractFactory("HelloWorld");
+  const HelloWorld = await hre.ethers.getContractFactory("HelloWorld");
   const contract = await HelloWorld.deploy();
   await contract.deployed();
   console.log(`Contract deployed to ${contract.address}`);
@@ -69,11 +69,12 @@
     ```
 
     And add in the .env:
+    
       ```
       ETHERSCAN_KEY=989Y1SJ9I13V7DF3SURKYT98F462RRJV2U
       ```
 
-    6. Check if the '.env' file is included in the '.gitignore' file to protect the keys
-    7. Deploy the contracts on goerli:
-      1. npx hardhat run scripts/deploy.js --network goerli
+9. Check if the '.env' file is included in the '.gitignore' file to protect the keys
+10. Deploy the contracts on goerli:
+	1. npx hardhat run scripts/deploy.js --network goerli
 
