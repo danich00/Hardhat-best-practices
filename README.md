@@ -67,12 +67,11 @@
         apiKey: proccess.env.ETHERSCAN_KEY,
       }
     ```
-
-    And add in the .env:
+  6. And add in the .env:
     
-      ```
-      ETHERSCAN_KEY=989Y1SJ9I13V7DF3SURKYT98F462RRJV2U
-      ```
+     ```
+     ETHERSCAN_KEY=989Y1SJ9I13V7DF3SURKYT98F462RRJV2U
+     ```
 
 9. Check if the '.env' file is included in the '.gitignore' file to protect the keys
 10. Deploy the contracts on goerli:
